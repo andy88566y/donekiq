@@ -11,10 +11,12 @@
 * Using homebrew git, version 2.20.1.
 * GCD <andy88566y@gmail.com>
 
-##Step 3##
+##Step 3 4##
 
 * done
 
-##Step 4##
+##Step 5##
+* 原本照工作習慣做了branch develop, 改名成 topic.
+* bundler already installed, version 1.17.2
+* 用rails 官方介紹設定 database.yml (https://edgeguides.rubyonrails.org/configuring.html)
 
-* 
