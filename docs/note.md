@@ -37,4 +37,5 @@
 ##Step 7##
 
 * 打到奇怪的問題，`rails generate` not working，`spring stop` `bin/spring`後恢復正常。(refer: https://github.com/rails/spring/issues/265) 可能是我中間切換過ruby version造成的？
+* 安裝slim 作為template engine
 * 

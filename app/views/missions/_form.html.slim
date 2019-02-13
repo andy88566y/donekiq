@@ -1,0 +1,17 @@
+= form_for @mission do |f|
+  - if @mission.errors.any?
+    #error_explanation
+      h2 = "#{pluralize(@mission.errors.count, "error")} prohibited this mission from being saved:"
+      ul
+        - @mission.errors.full_messages.each do |message|
+          li = message
+  = f.label :title
+  = f.text_field :title
+
+  = f.label :end_time
+  = f.date_field :end_time
+
+  = f.label :priority
+  = f.select( :priority, options_for_select([["Urgent", "Urgent"], ["Medium", "Medium"], ["Low", "Low"]], f.object.priority || "Low"))
+
+  .actions = f.submit
