@@ -2,7 +2,7 @@
 
 ##Step 1##
 
-* Using rvm to install ruby 2.6.1. Using it to built 5xTraining.
+* Using rvm to install ruby 2.6.1. Using it to built donekiq.
 * Using `gem install rails`, version Rails 5.2.2.
 * Using homebrew to check postgreSQL version 11.1.
 
@@ -35,3 +35,6 @@
 感覺是哲學不同？或是可能我弄錯某個地方，希望有人可以討論。
 
 ##Step 7##
+
+* 打到奇怪的問題，`rails generate` not working，`spring stop` `bin/spring`後恢復正常。(refer: https://github.com/rails/spring/issues/265) 可能是我中間切換過ruby version造成的？
+* 
