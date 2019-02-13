@@ -38,4 +38,10 @@
 
 * 打到奇怪的問題，`rails generate` not working，`spring stop` `bin/spring`後恢復正常。(refer: https://github.com/rails/spring/issues/265) 可能是我中間切換過ruby version造成的？
 * 安裝slim 作為template engine
+* CRUD controller, view 的部分非常熟悉
+
+##Step 8##
+
+* 事先不懂`E2E 測試`這個詞，查了一下似乎算是integration test? 之前專案比較專注在寫Model的 Unit Test上，這種E2E test比較少去寫。
+* 決定還是用熟悉的rspec來寫，先安裝。
 * 
