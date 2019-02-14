@@ -47,4 +47,4 @@
 * 寫了簡單的validation test。重點擺在Travis CI 的導入。
 * 之前工作是用gitlab的CI/CD，沒用過Travis CI。
 * Trying this out: (refer: https://medium.com/hexient-labs/configuring-travis-ci-for-a-rails-project-d25bc2f2ba7e)
-
+* testing Travis...
