@@ -13,9 +13,3 @@ rvm:
 script:
   - bundle exec rails db:migrate RAILS_ENV=test
   - bundle exec rspec
-  notifications:
-    email:
-      recipients:
-        - andy88566y@gmail.com
-      on_success: always
-      on_failure: always
