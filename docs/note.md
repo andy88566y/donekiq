@@ -48,3 +48,5 @@
 * 之前工作是用gitlab的CI/CD，沒用過Travis CI。
 * Trying this out: (refer: https://medium.com/hexient-labs/configuring-travis-ci-for-a-rails-project-d25bc2f2ba7e)
 * testing Travis...
+* 原來一直沒跑是我 .travis.yml 有縮排錯誤...  yml該重修了我
+* Travis總算有跑，但是有error
