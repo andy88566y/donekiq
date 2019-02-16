@@ -7,6 +7,6 @@ RSpec.describe Mission, type: :model do
   it "validates presence of title" do
     mission = Mission.new()
     mission.valid?
-    expect(mission.errors[:title]).to include("can't be blank")
+    expect(mission.errors[:title]).to include("不能為空白")
   end
 end
