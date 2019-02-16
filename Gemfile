@@ -39,6 +39,7 @@ gem 'bootsnap', '>= 1.1.0', require: false
 gem 'pg', '~> 0.18.4'
 gem 'slim-rails'
 gem "rake", ">= 11.1"
+gem "rails-i18n"
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
   gem 'byebug', platforms: [:mri, :mingw, :x64_mingw]

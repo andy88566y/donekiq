@@ -1,0 +1,20 @@
+zh-TW:
+  hello_world: 哈囉
+  activerecord:
+    models:
+      mission: 任務
+    attributes:
+      mission:
+        title: 標題
+        end_time: 截止時間
+        priority: 優先度
+  action:
+    new: 新增%{model_name}
+    edit: 編輯%{model_name}
+    destroy: 刪除%{model_name}
+    show: 顯示%{obj}
+    back: 回到上一頁
+  priority:
+    Low: 普通
+    Medium: 中等
+    Urgent: 緊急

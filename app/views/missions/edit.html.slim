@@ -1,8 +1,8 @@
-h1 Editing mission
+h1 =t("action.edit", model_name: Mission.model_name.human)
 
 == render 'form'
 
-=> link_to 'Show', @mission
+=> link_to t("action.show", obj: "#{Mission.model_name.human}##{@mission.id}"), @mission
 '|
-=< link_to 'Back', missions_path
+=< link_to t("action.back"), missions_path
 

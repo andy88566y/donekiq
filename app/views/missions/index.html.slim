@@ -1,11 +1,11 @@
-h1 Listing missions
+h1 = Mission.model_name.human
 
 table
   thead
     tr
-      th 標題
-      th 截止時間
-      th 優先度
+      th = Mission.human_attribute_name(:title)
+      th = Mission.human_attribute_name(:end_time)
+      th = Mission.human_attribute_name(:priority)
       th
       th
 
@@ -14,10 +14,10 @@ table
       tr
         td = mission.title
         td = time_tag mission.end_time
-        td = mission.priority
-        td = link_to 'Edit', edit_mission_path(mission)
-        td = link_to 'Destroy', mission, data: { confirm: 'Are you sure?' }, method: :delete
+        td = t("priority.#{mission.priority}")
+        td = link_to t("action.edit", model_name: Mission.model_name.human), edit_mission_path(mission)
+        td = link_to t("action.destroy", model_name: Mission.model_name.human), mission, data: { confirm: 'Are you sure?' }, method: :delete
 
 br
 
-= link_to 'New Mission', new_mission_path
+= link_to t("action.new", model_name: Mission.model_name.human), new_mission_path
