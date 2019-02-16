@@ -8,6 +8,7 @@ zh-TW:
         title: 標題
         end_time: 截止時間
         priority: 優先度
+        created_at: 建立時間
   action:
     new: 新增%{model_name}
     edit: 編輯%{model_name}

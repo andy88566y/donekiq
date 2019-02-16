@@ -12,6 +12,7 @@ table
       th = Mission.human_attribute_name(:title)
       th = Mission.human_attribute_name(:end_time)
       th = Mission.human_attribute_name(:priority)
+      th = Mission.human_attribute_name(:created_at)
       th
       th
 
@@ -21,6 +22,7 @@ table
         td = mission.title
         td = time_tag mission.end_time
         td = t("priority.#{mission.priority}")
+        td = time_tag mission.created_at
         td = link_to t("action.edit", model_name: Mission.model_name.human), edit_mission_path(mission)
         td = link_to t("action.destroy", model_name: Mission.model_name.human), mission, data: { confirm: 'Are you sure?' }, method: :delete
 
